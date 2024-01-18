@@ -35,6 +35,7 @@ public class DemoCapasApplication implements CommandLineRunner {
 		System.out.println(capaServicioFactura.insertar(f1));
 		Inmueble i1 = new Inmueble("HR001","imagenes/casaHR001.jpg","imagenes/grande/casaHR001.jpg","hermosa vivienda");
 		System.out.println(capaServicioInmueble.insertar(i1));
+		System.out.println("--");
 
 	}
 }
